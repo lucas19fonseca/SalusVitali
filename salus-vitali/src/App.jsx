@@ -4,7 +4,7 @@ import Jr from "./assets/Jr.png"
 import Vt from "./assets/Vt.png"
 import Tiger from "./assets/Tiger.png"
 import Salus from "./assets/Salus.jpg"
-import Busque from "./assets/Busque.png"
+// import Busque from "./assets/Busque.png"
 
 function App() {
   useEffect(() => {
@@ -226,7 +226,7 @@ function App() {
               </p>
             </div>
             <div className="about-image">
-              <img src={Busque} alt="img sobre salus" style={{ height: "52vh", width: "90%", borderRadius: "10px" }} />
+              {/* <img src={Busque} alt="img sobre salus" style={{ height: "52vh", width: "90%", borderRadius: "10px" }} /> */}
             </div>
           </div>
         </div>
